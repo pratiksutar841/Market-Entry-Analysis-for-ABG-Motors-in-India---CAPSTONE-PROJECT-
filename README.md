@@ -126,6 +126,19 @@ ABG Motors is exploring expansion opportunities in India, assuming customer beha
 </ul>
 <p>📁 <i>See folder:</i> <code>/Tableau_Charts</code></p>
 
+<!-- Tableau Link -->
+<p>
+    🌐 <b>Interactive Dashboard:</b>  
+    <a href="https://public.tableau.com/shared/SY45BDSFH?:display_count=n&:origin=viz_share_link" target="_blank">Click here to view on Tableau Public</a>
+</p>
+
+<!-- Image Preview -->
+<p align="center">
+    <a href="YOUR_TABLEAU_PUBLIC_LINK" target="_blank">
+        <img src="https://github.com/pratiksutar841/Market-Entry-Analysis-for-ABG-Motors-in-India---CAPSTONE-PROJECT-/blob/main/Dashboard-Photo.png" alt="Tableau Dashboard Preview" width="800">
+    </a>
+</p>
+
 <hr>
 
 <h2>✅ Final Recommendation</h2>
