@@ -1,22 +1,30 @@
-🚗 Market Entry Analysis for ABG Motors – Capstone Project
-📌 Project Objective
+<h1>🚗 Market Entry Analysis for ABG Motors – Capstone Project</h1>
 
-To determine whether ABG Motors, a Japanese automobile manufacturer, should enter the Indian market by leveraging data-driven decision-making. This involves building a classification model using Japanese market data to predict potential Indian customers and evaluating profitability against a sales target of 12,000 cars/year.
+<h2>📌 Project Objective</h2>
+<p>
+To determine whether <b>ABG Motors</b>, a Japanese automobile manufacturer, should enter the <b>Indian market</b> by leveraging 
+<b>data-driven decision-making</b>. This involves building a <b>classification model</b> using Japanese market data to predict potential 
+Indian customers and evaluating profitability against a sales target of <b>12,000 cars/year</b>.
+</p>
 
-🧠 Problem Statement
+<hr>
 
+<h2>🧠 Problem Statement</h2>
+<p>
 ABG Motors is exploring expansion opportunities in India, assuming customer behavior may be similar to Japan.
-You are tasked to:
+</p>
+<p>You are tasked to:</p>
+<ul>
+    <li>Analyze sample customer data from <b>Japan</b> (training data) and <b>India</b> (prediction data).</li>
+    <li>Build a <b>machine learning classification model</b> to estimate purchase likelihood.</li>
+    <li>Identify the <b>number of potential Indian customers</b> and compare it against the 12,000-car sales benchmark.</li>
+    <li>Provide <b>business recommendations</b> backed by predictive analytics and visualization insights.</li>
+</ul>
 
-Analyze sample customer data from Japan (training data) and India (prediction data).
+<hr>
 
-Build a machine learning classification model to estimate purchase likelihood.
-
-Identify the number of potential Indian customers and compare it against the 12,000-car sales benchmark.
-
-Provide business recommendations backed by predictive analytics and visualization insights.
-
-📂 Project Structure
+<h2>📂 Project Structure</h2>
+<pre>
 📁 ABG-Market-Entry-Analysis
 │── ABG_Market_Entry_Analysis.ipynb          # Jupyter Notebook with full workflow
 │── cleaned_japanese.csv                     # Cleaned Japanese dataset
@@ -24,104 +32,109 @@ Provide business recommendations backed by predictive analytics and visualizatio
 │── ABG_Market_Entry_Report.docx              # Detailed project report
 │── /Tableau_Charts/                          # Tableau visualizations (PNG/Screenshots)
 │── README.md                                 # Project documentation
+</pre>
 
-🛠️ Tools & Technologies
+<hr>
 
-Programming & Libraries: Python, Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
+<h2>🛠️ Tools & Technologies</h2>
+<ul>
+    <li><b>Programming & Libraries:</b> Python, Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib</li>
+    <li><b>Data Visualization:</b> Tableau</li>
+    <li><b>Environment:</b> Google Colab, Jupyter Notebook</li>
+    <li><b>Version Control:</b> Git & GitHub</li>
+</ul>
 
-Data Visualization: Tableau
+<hr>
 
-Environment: Google Colab, Jupyter Notebook
+<h2>📊 Methodology</h2>
+<ol>
+    <li><b>Data Understanding & Cleaning</b>
+        <ul>
+            <li>Loaded Japanese & Indian datasets</li>
+            <li>Checked for missing values, duplicates, outliers</li>
+            <li>Encoded categorical variables and scaled numerical features</li>
+        </ul>
+    </li>
+    <li><b>Exploratory Data Analysis (EDA)</b>
+        <ul>
+            <li>Demographic patterns of buyers vs. non-buyers</li>
+            <li>Correlation between age, income, marital status, and purchase decision</li>
+            <li>Visual comparisons of Japan vs. India</li>
+        </ul>
+    </li>
+    <li><b>Model Building</b>
+        <ul>
+            <li>Algorithm: Logistic Regression (due to interpretability)</li>
+            <li>Train-test split: 70% training, 30% testing</li>
+            <li>Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC</li>
+        </ul>
+    </li>
+    <li><b>Prediction on Indian Dataset</b>
+        <ul>
+            <li>Applied trained model to Indian customers</li>
+            <li>Counted predicted buyers and compared with target</li>
+        </ul>
+    </li>
+    <li><b>Visualization in Tableau</b>
+        <ul>
+            <li>Age vs. Purchase Likelihood</li>
+            <li>Income Distribution of Buyers</li>
+            <li>Country-wise Sales Potential Comparison</li>
+        </ul>
+    </li>
+</ol>
 
-Version Control: Git & GitHub
+<hr>
 
-📊 Methodology
+<h2>📈 Key Results</h2>
+<ul>
+    <li><b>Predicted Indian Buyers:</b> 13,285 customers/year</li>
+    <li><b>Target Sales:</b> 12,000 cars/year</li>
+    <li><b>Recommendation:</b> ✅ <b>Proceed with Market Entry</b></li>
+</ul>
 
-Data Understanding & Cleaning
+<p><b>Model Performance on Japanese Data:</b></p>
+<ul>
+    <li>Accuracy: 85%</li>
+    <li>Precision: 83%</li>
+    <li>Recall: 81%</li>
+    <li>F1-score: 82%</li>
+    <li>ROC-AUC: 0.90</li>
+</ul>
 
-Loaded Japanese & Indian datasets
+<hr>
 
-Checked for missing values, duplicates, outliers
+<h2>📌 Business Insights</h2>
+<ul>
+    <li><b>Income</b> is the strongest predictor of car purchase likelihood.</li>
+    <li>Married customers in the <b>30–50 age range</b> show the highest buying intent.</li>
+    <li>Similar purchasing patterns between Japan and India validate the market similarity assumption.</li>
+    <li>Sales potential exceeds the break-even benchmark by <b>10.7%</b>.</li>
+</ul>
 
-Encoded categorical variables and scaled numerical features
+<hr>
 
-Exploratory Data Analysis (EDA)
+<h2>📷 Tableau Visualizations</h2>
+<ul>
+    <li>Customer segmentation by age group & income</li>
+    <li>Comparative sales potential in Japan vs. India</li>
+    <li>Purchase likelihood distribution</li>
+</ul>
+<p>📁 <i>See folder:</i> <code>/Tableau_Charts</code></p>
 
-Demographic patterns of buyers vs. non-buyers
+<hr>
 
-Correlation between age, income, marital status, and purchase decision
+<h2>✅ Final Recommendation</h2>
+<p>
+Based on predictive modeling and market similarity, ABG Motors should <b>enter the Indian market</b>, targeting middle-aged, higher-income customers through tailored marketing campaigns.
+</p>
 
-Visual comparisons of Japan vs. India
+<hr>
 
-Model Building
-
-Algorithm: Logistic Regression (due to interpretability)
-
-Train-test split: 70% training, 30% testing
-
-Evaluated metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC
-
-Prediction on Indian Dataset
-
-Applied trained Japanese model to Indian customers
-
-Counted predicted buyers and compared with 12,000 sales target
-
-Visualization in Tableau
-
-Age vs. Purchase Likelihood
-
-Income Distribution of Buyers
-
-Country-wise Sales Potential Comparison
-
-📈 Key Results
-
-Predicted Indian Buyers: 13,285 customers/year
-
-Target Sales: 12,000 cars/year
-
-Recommendation: ✅ Proceed with Market Entry
-
-Model Performance on Japanese Data:
-
-Accuracy: 85%
-
-Precision: 83%
-
-Recall: 81%
-
-F1-score: 82%
-
-ROC-AUC: 0.90
-
-📌 Business Insights
-
-Income is the strongest predictor of car purchase likelihood.
-
-Married customers in the 30–50 age range show the highest buying intent.
-
-Similar purchasing behavior patterns between Japan and India validate market similarity assumption.
-
-Sales potential exceeds the break-even benchmark by 10.7%.
-
-📷 Tableau Visualizations
-
-Customer segmentation by age group & income
-
-Comparative sales potential in Japan vs. India
-
-Purchase likelihood distribution
-
-📁 See folder: /Tableau_Charts
-
-✅ Final Recommendation
-
-Based on predictive modeling and market similarity, ABG Motors should enter the Indian market, targeting middle-aged, higher-income customers through tailored marketing campaigns.
-
-🙋‍♂️ Author
-
-Pratik Prashant Sutar
-B.Tech in Computer Science & Engineering (Data Science)
-GitHub: pratiksutar841
-LinkedIn: https://www.linkedin.com/in/pratik-sutar-?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHT6XOi20Q92S4xHr%2BbKKIw%3D%3D
+<h2>🙋‍♂️ Author</h2>
+<p>
+<b>Pratik Prashant Sutar</b><br>
+B.Tech in Computer Science & Engineering (Data Science)<br>
+GitHub: <a href="https://github.com/pratiksutar841">pratiksutar841</a><br>
+LinkedIn: <a href="#">https://www.linkedin.com/in/pratik-sutar-/</a>
+</p>
