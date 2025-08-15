@@ -7,6 +7,10 @@ To determine whether <b>ABG Motors</b>, a Japanese automobile manufacturer, shou
 Indian customers and evaluating profitability against a sales target of <b>12,000 cars/year</b>.
 </p>
 
+<p align="center">
+  <img src="" alt="Market Entry Analysis" width="800">
+</p>
+
 <hr>
 
 <h2>🧠 Problem Statement</h2>
